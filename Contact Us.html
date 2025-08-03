@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="watch gallery .css" rel="stylesheet" type="text/css">
+    <link href="bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+    <link href="css/Sizes.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/Wescale_Logo.png" alt="" width="55" height="55" class="rounded img-fluid"/>&nbsp;</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About&nbsp;</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="watch gallery.html" >Gallery&nbsp;</a></li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Contact Us.html">Contact Us&nbsp;</a>
+            </li>
+          </ul>
+</div>
+      </div>
+    </nav>
+	  <br>
+    <div class="row">
+      <div class=" col-xl-3 offset-xl-3">
+		<div>
+        <form action="send_email.php" method="POST">
+
+            <div >
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your Name" required> 
+            </div>
+
+            <br>
+
+             <div>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="someone@example.com" required> 
+            </div>
+
+            <br>
+
+             <div>
+            <label for="Comment" >Comment</label>
+            <textarea id="Comment" rows="6" name="comment"></textarea> 
+            </div>
+
+            <br>
+
+             <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>  
+            </div>
+            
+            <br>
+        </form>
+        </div>
+		</div>
+      <div class="col-xl-2">
+  <div>
+    <h5>Reach us through Whatsapp</h5>
+    <form action="https://api.whatsapp.com/send" method="GET" target="_blank">
+
+        <input type="hidden" name="phone" value="94773430004">
+        <textarea name="text" rows="7" cols="50" required placeholder="Enter your message"></textarea>
+        <button type="submit">Send Message</button>
+
+    </form>
+   </div>
+		
+	</div>
+    </div>
+<hr>
+	  
+    <div class="container text-white bg-dark p-4">
+      <div class="row">
+        <div class="col-6 col-md-8 col-lg-7">
+          <div class="row text-center">
+<div class="col-sm-6 col-md-4 col-lg-4 col-12"> </div>
+<div class="col-sm-6 col-md-4 col-lg-4 col-12">
+  <ul class="list-unstyled">
+    <li class="btn-link"> <a>Facebook</a></li>
+    <li class="btn-link"> <a>Instagram</a></li>
+    <li class="btn-link"> <a>X</a></li>
+  </ul>
+  &nbsp;</div>
+<div class="col-sm-6 col-md-4 col-lg-4 col-12">&nbsp;</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">&nbsp;</div>
+            <div class="col-lg-6">&nbsp;</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-5 col-6">
+		  <img src="images/Wescale_Logo.png" width="400" height="400" alt=""/>
+          <address>
+          <strong>WristWIse, Inc.</strong><br>
+Colombo 07,<br>
+<abbr title="Phone">Sri Lanka.</abbr>
+          </address>
+          <address>
+          <u>Tel:+94-11 67 87 541&nbsp;</u>
+          </address>
+<address>
+      <strong>Email</strong><br>
+          <a href="mailto:#">wrist.wise@wristwise.lk</a>
+          </address>
+          <address>
+          <strong></strong>          &nbsp;
+          </address>
+        </div>
+      </div>
+    </div>
+	  <div class="fixed-contact-buttons">
+  <a href="https://wa.me/94773768984?text=Hi%20I'm%20interested%20in%20your%20watches" target="_blank" title="WhatsApp">
+    <img src="images/WhatsApp.svg.png" alt="WhatsApp" class="contact-icon">
+  </a>
+  <a href="mailto:kavindugimhan206@gmail.com?subject=Watch Inquiry&body=Hi,%20I'm%20interested%20in%20your%20products." title="Gmail">
+    <img src="images/gmail-icon-transparent-free-png.png" alt="Email" class="contact-icon">
+  </a>
+</div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>©2025, WristWise.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
