@@ -1,0 +1,33 @@
+@charset "utf-8";
+.container-fluid .navbar.navbar-expand-lg.navbar-light.bg-light {
+
+
+}
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: #000000;
+}
+#carouselExampleIndicators1 .carousel-indicators .active {
+    background-color: #FE0004;
+}
+#carouselExampleIndicators1 .carousel-indicators li {
+    background-color: #FF7679;
+}
+.container-fluid {
+
+}
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #000000;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,0,4,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,0,4,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,0,4,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,0,4,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    align-content: center;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .navbar-nav.mr-auto {
+    align-content: center;
+    color: #FFFFFF;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .navbar-nav.mr-auto.align-items-center {
+    color: #FFFFFF;
+    text-shadow: 48px 36px #FFFFFF;
+}

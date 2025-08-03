@@ -1,0 +1,13 @@
+@charset "utf-8";
+.container .navbar-brand img {
+    width: 100px;
+    height: 100px;
+}
+.row .col-2 .rounded-circle.img-fluid {
+    width: 102px;
+    height: 43px;
+}
+.row .col-md-4.col-lg-5.col-6 img {
+    width: 100px;
+    height: 100px;
+}
